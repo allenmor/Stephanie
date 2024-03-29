@@ -1,0 +1,68 @@
+/* Home.css */
+
+/* Main container styling */
+.home-div {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light gray background color */
+  }
+  
+  /* Profile image styling */
+  .home-div img {
+    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 8px solid #fff; /* White border around the image */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    margin-bottom: 20px;
+  }
+  
+  /* Introduction text styling */
+  .intro {
+    font-size: 1.4em;
+    line-height: 1.8;
+    color: #555; /* Dark gray text color */
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #007bff; /* Blue color for emphasis */
+  }
+  
+  /* Section headings styling */
+  .section h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark gray color for headings */
+    font-size: 2em;
+  }
+  
+  /* Section content styling */
+  .section p {
+    margin-bottom: 25px;
+    line-height: 1.8;
+    color: #666; /* Slightly darker gray text color */
+  }
+  
+  /* Additional information styling */
+  .extra {
+    margin-top: 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #555; /* Dark gray text color */
+  }
+  
+  /* Footer styling */
+  .home-div p {
+    margin-bottom: 15px;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (min-width: 768px) {
+    /* Adjustments for larger screens */
+    .home-div {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  
